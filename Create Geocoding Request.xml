@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Create Geocoding Request">
+    <DisplayName>Create Geocoding Request</DisplayName>
+    <AssignTo createNew="false" type="request">GeocodingRequest</AssignTo>
+    <Set>
+        <QueryParams>
+            <QueryParam name="address">{request.queryparam.zipcode}</QueryParam>
+            <QueryParam name="region">US</QueryParam>
+            <QueryParam name="sensor">false</QueryParam>
+        </QueryParams>
+        <Verb>GET</Verb>
+    </Set>
+    <AssignVariable>
+        <Name>zipcode</Name>
+        <Ref>request.queryparam.zipcode</Ref>
+    </AssignVariable>
+    <AssignVariable>
+        <Name>radius</Name>
+        <Value>0</Value>
+        <Ref>request.queryparam.radius</Ref>
+    </AssignVariable>
+</AssignMessage>

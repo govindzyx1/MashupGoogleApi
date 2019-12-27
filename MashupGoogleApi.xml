@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="5" name="MashupGoogleApi">
+    <Basepaths>/mashupgoogleapi/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1577006506221</CreatedAt>
+    <CreatedBy>verma.govind92@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>MashupGoogleApi</DisplayName>
+    <LastModifiedAt>1577006506221</LastModifiedAt>
+    <LastModifiedBy>verma.govind92@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:74d786a57992fe5ac7028fbba0d34fe9d2f49501dc4ea36411de5e7aa5b24ba822f9c593f894e0bee4e2b489eab19ca5d3a575df8f224754359c66c4e5b673a2</ManifestVersion>
+    <Policies>
+        <Policy>Create Geocoding Request</Policy>
+        <Policy>ExtractGeocode</Policy>
+        <Policy>GeocodingRequest</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>Set-Query-Param </Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

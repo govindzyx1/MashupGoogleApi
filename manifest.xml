@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Create Geocoding Request" version="SHA-512:3e464a1c7474360cf0a0b97f80f0ff34fa398c5d5b15d29e2f04cd4ac84737b18cfc5c3dce4d81e7d7c7889a06a0563a2f7dfab1e1cce3258a66702fb36b65ea"/>
+        <VersionInfo resourceName="ExtractGeocode" version="SHA-512:192863efdda99cb515578785d67ce06008569b1e0a81be668932ef69ec81d396f980b2c8870f34ff722e6a92c9940c90a9577510a466ce6c425177c70eea702d"/>
+        <VersionInfo resourceName="GeocodingRequest" version="SHA-512:52f6f7170522d1dd1dc3bab5d5135707ba3cccb4e024a49d690a9484b4e9173900ff7a8c92917495515a07bf559f37bba1e949f7e5f244b7fc5bf86474cc564a"/>
+        <VersionInfo resourceName="JavaScript-1" version="SHA-512:5cf0ea15f602024aa350a8b98704ed506054493363f785aaf99b585236be8038d6382fcd6e43c6b93b4f9f475a8663359305396a9f248d2c49e1a71aa7d90ac1"/>
+        <VersionInfo resourceName="Set-Query-Param " version="SHA-512:3a461ba87404a9a4e35caf310ac27eae712e21b128de39b39a155a391100c02b6df7cedbebd2a642bf92f956c01b94e2aba826cbb2618c710023e9988e1dd1a2"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:084f25d0626d1b1ad4d533e2138b13a838b784be31d5d41144f1f76edc2ca729da77bf1680628cf9f0fce48da554ddab8cbe4969b0f614a23d61999a94001d73"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript-1.js" version="SHA-512:8c19394006914718b2230c5030efda3165811e98a514595681fb86e40fb72ba52241feea393e4092c80611a481b82cf4e180903a74b5192e1312ee7f0fa78dc4"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:f147757c1c415e6964c2095910076516482ef4bd436f55be20390b1ecf0d819731e81fc0524b41a76be7388a77d84823b15eb9351e3043c32f45e95b02f5c1eb"/>
+    </TargetEndpoints>
+</Manifest>
